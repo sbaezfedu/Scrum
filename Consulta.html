@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>SCRUM</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/estilo5.css">	
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<script>
+		function accesoUsuario()
+		{
+			if (document.getElementById("user").value == "DVH")
+			{
+				window.location.href = "Sprints.html";
+			}
+			else
+			{
+				alert("Error en acceso");
+			}
+		}
+	</script>
+</head>
+<body>
+<div class="container-fluid">
+	<header class="row mt-2" id="logo">
+		<div class="col-2">
+			<a href="Inicio.html"><img src="images/Logo.jpg" alt="SCRUM"></a>
+		</div>
+		<div class="col offset-1 d-none d-md-block">
+			<h1>ASOCIACION AYUDA CONTRA SCRUM</h1>
+		</div>
+		<div class="col offset-2 d-none d-sm-block d-md-none">
+			<h3>ASOCIACION AYUDA CONTRA SCRUM</h3>
+		</div>
+	</header>
+
+	<div class="row mt-2 ml-1 mr-1" id="menu">
+		<div class="col-12 col-sm-4 order-1">
+			<a href="Consulta.html" class="consulta">Consulta</a>
+		</div>
+		<div class="col-12 col-sm-4 order-2">
+			<a href="Clientes.html" class="clientes">Clientes</a>
+		</div>
+		<div class="col-12 col-sm-4 order-3">
+			<a href="Contacto.html" class="contacto">Contacto</a>
+		</div>
+	</div>
+
+	<div class="row mt-2 ml-1 mr-1" id="listado">
+		<div class="col-12 col-sm-4">Usuario <input type="text" id="user"><br></div>
+		<div class="col-12 col-sm-4">Contraseña <input type="text" id="pass"><br></div>
+		<div class="col-12 col-sm-4"><input type="submit" value="Enviar" onclick="accesoUsuario()"></div>
+	</div>
+
+	<footer class="row mt-2 ml-1 mr-1">
+		<div class="col-12" id="redes">
+			<a href="">Twitter</a>
+		</div>
+	</footer>
+	
+</div>
+</body>
+</html>

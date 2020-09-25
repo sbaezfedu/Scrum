@@ -1,0 +1,44 @@
+/*id*/
+#menu, #redes
+{
+	background-color: RGB(255, 204, 255);
+	border: 1px solid blue;
+}
+/* este codigo no se realiza ya que se puede hacer con Bootstrap en el html por medio de mt-5
+#menu, #buscar, #tareas, #redes
+{
+	margin-top: 0.5rem;
+}
+*/
+#to-do, #in-progress, #done
+{
+	display: inline-block;
+	height: 25rem;
+	background-color: lightgray;
+	border: 1px solid blue;
+	padding: 10px;
+}
+#id, #info, #direccion, #email, #telefono
+{
+	background-color: lightgray;
+	padding: 5px;
+	height: 25rem;
+}
+.sprint
+{
+	background-color: gray;
+	border: 1px solid blue;
+}
+/*selector*/
+a
+{
+	text-decoration: none;
+}
+/*media queries*/
+@media all and (max-width: 400px)
+{
+	#menu, #redes, #to-do, #in-progress, #done, #id, #info, #direccion, #email, #telefono
+    {
+        min-width: 400px;
+    }
+}

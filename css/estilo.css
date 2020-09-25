@@ -1,0 +1,71 @@
+/*id*/
+#menu, #redes
+{
+	background-color: RGB(255, 204, 255);
+	border: 1px solid blue;
+}
+#listado
+{
+	height: 490px;
+}
+#login
+{
+	position: relative;
+	top: 150px;
+	left: 400px;
+	background-color: RGB(255, 204, 255);
+	padding: 50px;
+	width: 30%;
+}
+#sprints
+{
+}
+#to-do, #in-progress, #done
+{
+	position: relative;
+	top: 10px;
+	left: 20px;
+	display: inline-block;
+	height: 400px;
+	background-color: lightgray;
+	border: 1px solid blue;
+	width: 30%;
+	padding: 10px;
+}
+#contactos
+{
+}
+#id, #info, #direccion, #email, #telefono
+{
+	background-color: lightgray;
+	position: relative;
+	top: 10px;
+	display: inline-block;
+	width: 19%;
+	padding: 5px;
+}
+/*class*/
+.consulta
+{
+	text-align: left;
+	display: inline-block;
+	width: 33%;
+}
+.clientes
+{
+	text-align: center;
+	display: inline-block;
+	width: 33%;
+}
+.contacto
+{
+	text-align: right;
+	display: inline-block;
+	width: 33%;
+}
+
+/*selector*/
+a
+{
+	text-decoration: none;
+}
